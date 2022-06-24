@@ -3,10 +3,15 @@ Theme Name: 2021 child theme
 Description: 參考佈景主題 2021 來做為設計主題的練習
 Author: James
 Author URI: <a href="https://code.webox.tw">https://code.webox.tw</a>
-Template: twentytwentyone
+
 Version: 1.0.0 /<em>子佈景版本</em>/
 */
-@import url('../twentytwentyone/style.css');
+/* @import url('../twentytwentyone/style.css'); */
+
+body{
+    background-color:black;
+    color:white;
+}
 
 a:hover {
     text-decoration: underline;

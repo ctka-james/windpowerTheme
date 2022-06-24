@@ -6,7 +6,7 @@
             global $query_string;
             $arg = array(
                 'category_in' => array(2, 6),
-                'posts_per_page' => 4,
+                'posts_per_page' => 5,
                 'order' => 'ASC',
             );
             query_posts($arg);
