@@ -5,7 +5,7 @@
 <?php
 global $query_string;
 $args = array(
-    'posts_per_page' => 4,
+    'posts_per_page' => 21,
     'post_type' => 'any',
     'post_status' => 'any',
 );
