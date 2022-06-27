@@ -26,4 +26,4 @@
             <h1><?php bloginfo('name'); ?></h1>
             <em><?php bloginfo('description'); ?></em>
         </div>
-    </div>
+        <!-- header結束 -->

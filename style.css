@@ -8,9 +8,9 @@ Version: 1.0.0 /<em>子佈景版本</em>/
 */
 /* @import url('../twentytwentyone/style.css'); */
 
-body{
-    background-color:black;
-    color:white;
+body {
+    background-color: black;
+    color: #5e5a5a;
 }
 
 a:hover {
@@ -18,8 +18,9 @@ a:hover {
     /* text-decoration: none; */
     /* color: red; */
 }
-.testArea{
-    color:aquamarine;
-    background-color:red;
+
+.testArea {
+    color: aquamarine;
+    background-color: red;
     font-size: x-large;
 }
