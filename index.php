@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 <div>
+    <div><img src="https://picsum.photos/id/684/600/400" alt=""></div>
+    <div><img src="https://picsum.photos/id/685/600/400" alt=""></div>
+    <div><img src="https://picsum.photos/id/598/600/400" alt=""></div>
+
     <div>
         <ul>
             <?php

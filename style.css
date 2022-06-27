@@ -18,3 +18,8 @@ a:hover {
     /* text-decoration: none; */
     /* color: red; */
 }
+.testArea{
+    color:aquamarine;
+    background-color:red;
+    font-size: x-large;
+}

@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div style="background-color:red"><?php bloginfo('home') ?></div>
+    <div class="testArea"><?php bloginfo('home') ?></div>
     <div class="container">
         <div class="well well-md">
             <h1><?php bloginfo('name'); ?></h1>
