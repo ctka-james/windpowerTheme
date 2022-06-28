@@ -21,9 +21,26 @@
 
 <body>
     <div class="testArea"><?php bloginfo('home') ?></div>
+    <!-- <div class="jumbotron"></div> -->
     <div class="container">
         <div class="well well-md">
             <h1><?php bloginfo('name'); ?></h1>
             <em><?php bloginfo('description'); ?></em>
         </div>
+        <!-- <nav class="navbar navbar-default"></nav> -->
+        <!-- wp_nav_navbar 的 class 為 menu-all-pages-container 故無法正確顯示 -->
+        <!-- 這邊的疑問點，將來查到後再回頭來做 -->
+        <?php
+        wp_nav_menu(
+            array(
+                'theme-location' => 'primary-menu',
+                'container' => 'div',
+                'container_class' => 'navbar navbar-default',
+                'container_id' => 'navbar',
+                'menu_class' => 'navbar',
+                'menu_id' => 'navbar',
+            )
+        );
+        ?>
+
         <!-- header結束 -->
