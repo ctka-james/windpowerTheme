@@ -1,16 +1,15 @@
 /*
-Theme Name: 2021 child theme
-Description: 參考佈景主題 2021 來做為設計主題的練習
-Author: James
+Theme Name: windpowerTheme
+Description: 正式設計WP的佈景主題
+Author: James Tsai
 Author URI: <a href="https://code.webox.tw">https://code.webox.tw</a>
-
-Version: 1.0.0 /<em>子佈景版本</em>/
+Version: 1.0.0 
 */
 /* @import url('../twentytwentyone/style.css'); */
 
 body {
     background-color: black;
-    color: #5e5a5a;    
+    color: #5e5a5a;
 }
 
 a:hover {
